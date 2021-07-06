@@ -1,0 +1,89 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&family=Pacifico&display=swap");
+
+/* Variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #8cc63f;
+    --secondary: #ffffff;
+    --tertiary: #181818;
+    --logo: url("../public/logo_dark.png");
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary: #39b54a;
+    --secondary: #181818;
+    --tertiary: #ffffff;
+    --logo: url("../public/logo_light.png");
+  }
+}
+
+/* Document */
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+  color: var(--secondary);
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  background-color: var(--tertiary);
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar-start {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#navbar-logo {
+  background-image: var(--logo);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+#navbar-heading {
+  font-family: "Pacifico";
+  color: var(--primary);
+}
+
+#navbar-links {
+  margin-right: 50px;
+}
+
+.navbar-link {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 20px;
+  position: relative;
+}
+
+.navbar-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
