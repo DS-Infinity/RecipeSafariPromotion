@@ -14,6 +14,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --primary: #39b54a;
+    --light-green200: #39B54A;
     --secondary: #181818;
     --tertiary: #ffffff;
     --logo: url("../public/logo_light.png");
