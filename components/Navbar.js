@@ -1,7 +1,7 @@
 // Export Navbar
 export default function Navbar() {
   return (
-    <div id="navbar">
+    <nav id="navbar">
       <div id="navbar-start">
         <div id="navbar-logo" />
         <h1 id="navbar-heading">Recipe Safari</h1>
@@ -18,6 +18,6 @@ export default function Navbar() {
           About Us
         </a>
       </div>
-    </div>
+    </nav>
   );
 }
