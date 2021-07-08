@@ -1,5 +1,6 @@
 // Import
 import business_plan_list from "../public/buisness_plan";
+import Image from "next/image";
 
 // Export About
 export default function About() {
@@ -21,6 +22,47 @@ export default function About() {
             </div>
           );
         })}
+      </div>
+
+      <h1 id="creators-heading">Creators</h1>
+
+      <div id="creators">
+        <div className="creator-box">
+          <Image
+            className="creator-img"
+            src="/Aahan.png"
+            width="300px"
+            height="300px"
+          />
+          <h3>Aahan Agarwal</h3>
+        </div>
+
+        <div className="creator-box">
+          <Image
+            className="creator-img"
+            src="/Shivanya.png"
+            width="300px"
+            height="300px"
+          />
+          <h3>Shivanya Chandra</h3>
+        </div>
+
+        <div className="creator-box">
+          <Image
+            className="creator-img"
+            src="/Daksh.png"
+            width="300px"
+            height="300px"
+          />
+          <h3>Daksh Srivasta</h3>
+        </div>
+      </div>
+
+      <div id="footer">
+        <p>
+          Copyright © <span>Recipe Safari</span> | Made with{" "}
+          <span id="heart">❤</span> by <span>eSpice</span>
+        </p>
       </div>
     </section>
   );
