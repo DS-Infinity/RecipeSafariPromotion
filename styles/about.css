@@ -1,0 +1,27 @@
+/* About */
+#about {
+  margin-top: 120px;
+}
+
+#business_plan > h1 {
+  font-family: "Inter";
+  font-size: 60px;
+  color: var(--primary);
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.business_plan_item {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  align-items: center;
+}
+
+.business_plan_item > h1 {
+  font-family: "Pacifico";
+  color: var(--primary);
+  font-size: 96px;
+  margin: 0 50px;
+}

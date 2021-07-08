@@ -1,6 +1,9 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&family=Pacifico&display=swap");
 
+/* CSS */
+@import url("./about.css");
+
 /* Variables */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -28,6 +31,7 @@ html {
   margin-top: 50px;
   font-family: "Inter";
   color: var(--secondary);
+  background-color: var(--tertiary);
 }
 
 /* Navbar */
@@ -37,7 +41,7 @@ html {
   top: 0;
   left: 0;
   z-index: 100;
-  max-height: 90px;
+  max-height: 70px;
   width: calc(100vw - 40px);
   padding: 15px 20px;
   align-items: center;
@@ -45,7 +49,7 @@ html {
   text-align: center;
   background-color: var(--tertiary);
   -webkit-box-shadow: 0 0 10px var(--primary);
-  box-shadow: 0 0 10px var(--primary);
+  box-shadow: 0 0 7px var(--primary);
 }
 
 #navbar-start {
@@ -96,4 +100,23 @@ html {
 .navbar-link:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--tertiary) var(--primary);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--tertiary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 0;
+  border: none;
 }
