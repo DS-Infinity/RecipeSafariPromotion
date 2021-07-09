@@ -4,120 +4,122 @@
 /* CSS */
 @import url("./about.css");
 @import url("./ouraim.css");
+@import url("./slider.css");
 
 /* Variables */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --primary: #8cc63f;
-    --secondary: #ffffff;
-    --tertiary: #181818;
-    --logo: url("../public/logo_dark.png");
-  }
+	:root {
+		--primary: #8cc63f;
+		--secondary: #ffffff;
+		--tertiary: #181818;
+		--logo: url("../public/logo_dark.png");
+	}
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --primary: #39b54a;
-    --secondary: #181818;
-    --tertiary: #ffffff;
-    --logo: url("../public/logo_light.png");
-  }
+	:root {
+		--primary: #39b54a;
+		--secondary: #181818;
+		--tertiary: #ffffff;
+		--logo: url("../public/logo_light.png");
+	}
 }
 
 /* Document */
 body,
 html {
-  padding: 0;
-  margin: 0;
-  margin-top: 50px;
-  font-family: "Inter";
-  color: var(--secondary);
-  background-color: var(--tertiary);
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+	font-family: "Inter";
+	color: var(--secondary);
+	background-color: var(--tertiary);
 }
 
 /* Navbar */
 #navbar {
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  max-height: 70px;
-  width: calc(100vw - 40px);
-  padding: 15px 20px;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  background-color: var(--tertiary);
-  -webkit-box-shadow: 0 0 10px var(--primary);
-  box-shadow: 0 0 7px var(--primary);
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	max-height: 70px;
+	width: calc(100vw - 40px);
+	padding: 15px 20px;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	background-color: var(--tertiary);
+	-webkit-box-shadow: 0 0 10px var(--primary);
+	box-shadow: 0 0 7px var(--primary);
 }
 
 #navbar-start {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-direction: row;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: row;
 }
 
 #navbar-logo {
-  background-image: var(--logo);
-  background-size: contain;
-  width: 100px;
-  height: 100px;
-  background-repeat: no-repeat;
+	background-image: var(--logo);
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
 }
 
 #navbar-heading {
-  font-family: "Pacifico";
-  color: var(--primary);
+	font-family: "Pacifico";
+	color: var(--primary);
 }
 
 #navbar-links {
-  margin-right: 50px;
+	margin-right: 50px;
 }
 
 .navbar-link {
-  margin: 0px 20px;
-  text-decoration: none;
-  color: var(--secondary);
-  font-size: 20px;
-  position: relative;
+	margin: 0px 20px;
+	text-decoration: none;
+	color: var(--secondary);
+	font-size: 20px;
+	position: relative;
 }
 
 .navbar-link:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--primary);
-  transform-origin: bottom right;
-  transition: transform 0.3s ease-out;
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--primary);
+	transform-origin: bottom right;
+	transition: transform 0.3s ease-out;
 }
 
 .navbar-link:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 * {
-  scrollbar-width: thin;
-  scrollbar-color: var(--tertiary) var(--primary);
+	scrollbar-width: thin;
+	scrollbar-color: var(--tertiary) var(--primary);
 }
 
 *::-webkit-scrollbar {
-  width: 5px;
+	width: 5px;
 }
 
 *::-webkit-scrollbar-track {
-  background: var(--tertiary);
+	background: var(--tertiary);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--primary);
-  border-radius: 0;
-  border: none;
+	background-color: var(--primary);
+	border-radius: 0;
+	border: none;
 }
+

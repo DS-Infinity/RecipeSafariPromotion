@@ -1,72 +1,73 @@
 /* About */
 #business_plan > h1 {
-  font-family: "Inter";
-  font-size: 60px;
-  color: var(--primary);
-  display: block;
-  text-align: center;
-  margin: 10px 0;
+	font-family: "Inter";
+	font-size: 60px;
+	color: var(--primary);
+	display: block;
+	text-align: center;
+	margin: 10px 0;
+	margin-top: 100px;
 }
 
 .business_plan_item {
-  display: flex;
-  flex-direction: row;
-  text-align: start;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	text-align: start;
+	align-items: center;
 }
 
 .business_plan_item > h1 {
-  font-family: "Pacifico";
-  color: var(--primary);
-  font-size: 96px;
-  margin: 0 50px;
+	font-family: "Pacifico";
+	color: var(--primary);
+	font-size: 96px;
+	margin: 0 50px;
 }
 
 #creators-heading {
-  font-family: "Inter";
-  font-size: 60px;
-  color: var(--primary);
-  display: block;
-  text-align: center;
-  margin: 10px 0;
+	font-family: "Inter";
+	font-size: 60px;
+	color: var(--primary);
+	display: block;
+	text-align: center;
+	margin: 10px 0;
 }
 
 #creators {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  min-width: 400px;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-width: 400px;
 }
 
 .creator-img {
-  border-radius: 25px;
+	border-radius: 25px;
 }
 
 .creator-box:hover {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .creator-box {
-  display: inline-flex;
-  flex-direction: column;
-  margin-top: 50px;
-  text-align: center;
-  transition: all 0.3s;
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 50px;
+	text-align: center;
+	transition: all 0.3s;
 }
 
 #footer {
-  margin: 40px 0px;
-  text-align: center;
+	margin: 40px 0px;
+	text-align: center;
 }
 
 #footer > p > span {
-  color: var(--primary);
-  font-family: "Pacifico";
+	color: var(--primary);
+	font-family: "Pacifico";
 }
 
 #footer > p > span#heart {
-  color: red;
+	color: red;
 }
