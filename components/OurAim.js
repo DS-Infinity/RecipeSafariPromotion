@@ -22,7 +22,8 @@ export default function OurAim() {
       up = scrollY < prevScrollY;
       down = !up;
       const timelineRect = timeline.getBoundingClientRect();
-      const lineRect = line.getBoundingClientRect(); // const lineHeight = lineRect.bottom - lineRect.top;
+      const lineRect = line.getBoundingClientRect();
+      const lineHeight = lineRect.bottom - lineRect.top;
 
       const dist = targetY - timelineRect.top;
       console.log(dist);
@@ -38,13 +39,11 @@ export default function OurAim() {
       }
 
       sections.forEach((item) => {
-        // console.log(item);
-        const rect = item.getBoundingClientRect(); //     console.log(rect);
-
+        const rect = item.getBoundingClientRect();
         if (rect.top + item.offsetHeight / 5 < targetY) {
           item.classList.add("show-me");
         }
-      }); // console.log(up, down);
+      });
 
       prevScrollY = window.scrollY;
     }
