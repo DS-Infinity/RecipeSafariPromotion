@@ -1,0 +1,72 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 70px; */
+  margin-bottom: 16vh;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-size: 72px;
+  color: var(--secondary);
+  margin: 0;
+  text-align: center;
+}
+
+.pacifico_title {
+  font-family: 'Pacifico', sans-serif;
+  color: var(--primary);
+}
+
+.description {
+  text-align: center;
+  width: 100%;
+  color: #b6b6b6;
+  font-size: 36px;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64%;
+  margin-left: 50vw;
+  margin-right: 50vw;
+  margin-top: 10vh;
+}
+
+.feature-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 42%;
+}
+
+.feature-details h1 {
+  font-size: 36px;
+}
+
+.feature-details p {
+  font-size: 24px;
+}
+
+.feature-share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.feature-share h1 {
+  margin-bottom: 0;
+  font-size: 56px;
+}
+
+.feature-share p {
+  font-size: 24px;
+  width: 48vw;
+}
