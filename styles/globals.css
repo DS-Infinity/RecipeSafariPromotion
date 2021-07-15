@@ -5,35 +5,33 @@
 @import url("./home.css");
 @import url("./about.css");
 @import url("./ouraim.css");
+@import url("./slider.css");
+@import url("./switch.css");
 
 /* Variables */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary: #8cc63f;
-    --secondary: #ffffff;
-    --tertiary: #181818;
-    --logo: url("../public/logo_dark.png");
-  }
+:root {
+  --primary: #8cc63f;
+  --secondary: #ffffff;
+  --tertiary: #181818;
+  --logo: url("../public/logo_dark.png");
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --primary: #39b54a;
-    --secondary: #181818;
-    --tertiary: #ffffff;
-    --logo: url("../public/logo_light.png");
-  }
+.light-mode {
+  --primary: #39b54a;
+  --secondary: #181818;
+  --tertiary: #ffffff;
+  --logo: url("../public/logo_light.png");
 }
 
 /* Document */
-body,
-html {
+body {
   padding: 0;
   margin: 0;
   margin-top: 50px;
   font-family: "Inter";
   color: var(--secondary);
   background-color: var(--tertiary);
+  scroll-behavior: smooth;
 }
 
 /* Navbar */

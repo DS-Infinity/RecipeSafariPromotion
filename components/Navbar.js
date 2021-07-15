@@ -8,16 +8,29 @@ export default function Navbar() {
       </div>
 
       <div id="navbar-links">
-        <a className="navbar-link" href="/">
+        <a className="navbar-link" href="#home">
           Home
         </a>
-        <a className="navbar-link" href="/help">
+        <a className="navbar-link" href="#help">
           Help
         </a>
-        <a className="navbar-link" href="/about">
+        <a className="navbar-link" href="#about">
           About Us
         </a>
       </div>
+
+      <label class="label">
+        <div class="toggle">
+          <input
+            class="toggle-state"
+            type="checkbox"
+            onClick={() => {
+              document.body.classList.toggle("light-mode");
+            }}
+          />
+          <div class="indicator"></div>
+        </div>
+      </label>
     </nav>
   );
 }
