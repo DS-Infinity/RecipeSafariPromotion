@@ -1,7 +1,7 @@
 /* About */
 #business_plan > h1 {
   font-family: "Inter";
-  font-size: 60px;
+  font-size: 72px;
   color: var(--primary);
   display: block;
   text-align: center;
@@ -19,13 +19,13 @@
 .business_plan_item > h1 {
   font-family: "Pacifico";
   color: var(--primary);
-  font-size: 96px;
+  font-size: 72px;
   margin: 0 50px;
 }
 
 #creators-heading {
   font-family: "Inter";
-  font-size: 60px;
+  font-size: 72px;
   color: var(--primary);
   display: block;
   text-align: center;

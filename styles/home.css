@@ -3,12 +3,25 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* padding-top: 70px; */
+  padding-top: 50px;
   margin-bottom: 16vh;
 }
 
+.home-image {
+  max-width: 100vw;
+}
+
+#splash-text {
+  padding: 50px 0;
+}
+
+#search-ui-img,
+#add-ui-img {
+  width: 80vw;
+}
+
 .title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 72px;
   color: var(--secondary);
   margin: 0;
@@ -16,22 +29,20 @@
 }
 
 .pacifico_title {
-  font-family: 'Pacifico', sans-serif;
+  font-family: "Pacifico", sans-serif;
   color: var(--primary);
 }
 
 .description {
   text-align: center;
   width: 100%;
-  color: #b6b6b6;
-  font-size: 36px;
 }
 
 .feature-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 64%;
+  width: 80%;
   margin-left: 50vw;
   margin-right: 50vw;
   margin-top: 10vh;
@@ -42,14 +53,11 @@
   flex-direction: column;
   justify-content: center;
   width: 42%;
+  text-align: end;
 }
 
-.feature-details h1 {
-  font-size: 36px;
-}
-
-.feature-details p {
-  font-size: 24px;
+.feature-details:nth-child(2) {
+  text-align: start;
 }
 
 .feature-share {
@@ -61,12 +69,7 @@
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-.feature-share h1 {
-  margin-bottom: 0;
-  font-size: 56px;
-}
 
 .feature-share p {
-  font-size: 24px;
   width: 48vw;
 }

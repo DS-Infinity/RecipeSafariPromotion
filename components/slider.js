@@ -1,6 +1,5 @@
 import React from "react";
 import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
 import audience from "../public/target_audience";
 
 export default function Slider() {

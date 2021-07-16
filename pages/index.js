@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div id="container">
       <Navbar />
-      <HomeSection/>
+      <HomeSection />
       <OurAim />
       <h2 className="target-audience">Target Audience</h2>
       <Slider />

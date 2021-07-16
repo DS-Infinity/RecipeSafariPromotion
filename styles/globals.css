@@ -32,6 +32,7 @@ body {
   color: var(--secondary);
   background-color: var(--tertiary);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* Navbar */

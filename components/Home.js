@@ -1,5 +1,5 @@
 // Import
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
 // import styles from "../styles/Home.css"
 
 // Export Home
@@ -8,11 +8,8 @@ export default function HomeSection() {
     <div>
       <Navbar />
       <div className="home">
-        <img
-          className="home-image"
-          src="https://via.placeholder.com/512x512"
-        ></img>
-        <div>
+        <img className="home-image" src="/splash.png"></img>
+        <div id="splash-text">
           <h1 className="title">
             Presenting <span className="pacifico_title">Recipe Safari</span>
           </h1>
@@ -20,7 +17,11 @@ export default function HomeSection() {
             An easy way to find and share recipes with people around the world.
           </p>
         </div>
-        <img src="https://via.placeholder.com/1280x720"></img>
+
+        <img
+          id="search-ui-img"
+          src="https://via.placeholder.com/1280x720"></img>
+
         <div className="feature-box">
           <div className="feature-details">
             <h1>Interact with other chefs.</h1>
@@ -28,19 +29,19 @@ export default function HomeSection() {
           </div>
           <img
             className="feature-img"
-            src="https://via.placeholder.com/500x360"
-          ></img>
+            src="https://via.placeholder.com/500x360"></img>
         </div>
+
         <div className="feature-box">
           <img
             className="feature-img"
-            src="https://via.placeholder.com/500x360"
-          ></img>
+            src="https://via.placeholder.com/500x360"></img>
           <div className="feature-details">
             <h1>Discover new recipes everyday.</h1>
             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           </div>
         </div>
+
         <div className="feature-share">
           <h1>Share your recipes and get feedback.</h1>
           <p>
@@ -49,9 +50,8 @@ export default function HomeSection() {
             Suspendisse sodales massa nec ullamcorper sagittis.
           </p>
         </div>
-        <img
-          src="https://via.placeholder.com/1280x720"
-        />
+
+        <img id="add-ui-img" src="https://via.placeholder.com/1280x720" />
       </div>
     </div>
   );
