@@ -18,7 +18,7 @@
 }
 
 .slider__comments {
-	height: 35vh;
+	height: 44vh;
 	text-align: center;
 	background-color: var(--primary);
 	opacity: 0.8;
@@ -121,7 +121,7 @@
 	display: block;
 	overflow: hidden;
 	position: relative;
-	height: 60vh;
+	height: 100vh;
 	width: 100%;
 }
 .awssld__container {

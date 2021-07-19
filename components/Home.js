@@ -33,23 +33,27 @@ export default function HomeSection() {
 						className="feature-img"
 						src="https://via.placeholder.com/500x360"></img>
 				</div>
-				{ /* isko css file mein hi daaldo lmao*/}
-				<hr className="hr"/>
+				{/* isko css file mein hi daaldo lmao*/}
+				<hr className="hr" />
 
-				<div className="feature-box">
+				<div className="feature-box new">
 					<img
 						className="feature-img"
 						src="https://via.placeholder.com/500x360"></img>
 					<div className="feature-details">
 						<h1>Discover new recipes everyday.</h1>
-						<p>Try out the recipe of the day and compete in challanges to get your's one the top.</p>
+						<p>
+							Try out the recipe of the day and compete in challanges to get
+							your's one the top.
+						</p>
 					</div>
 				</div>
 
 				<div className="feature-share">
 					<h1>Share your recipes and get feedback.</h1>
 					<p>
-						Add new recipes and get suggestions and reviews on that half-burned potato.
+						Add new recipes and get suggestions and reviews on that half-burned
+						potato.
 					</p>
 				</div>
 
