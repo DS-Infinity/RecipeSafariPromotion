@@ -8,7 +8,7 @@ module.exports = [
     text: "Add all features one could expect and give the foremost importance to the user feedbacks and suggestions.",
   },
   {
-    title: "Open restraunts.",
-    text: "Open physical restraunts all over the world, offering all dishes / recipes available on the website.",
+    title: "Open restaurants.",
+    text: "Open physical restaurants all over the world, offering all dishes / recipes available on the website.",
   },
 ];

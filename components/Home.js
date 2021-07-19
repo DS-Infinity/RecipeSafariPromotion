@@ -33,6 +33,8 @@ export default function HomeSection() {
 						className="feature-img"
 						src="https://via.placeholder.com/500x360"></img>
 				</div>
+				{ /* isko css file mein hi daaldo lmao*/}
+				<hr className="hr"/>
 
 				<div className="feature-box">
 					<img

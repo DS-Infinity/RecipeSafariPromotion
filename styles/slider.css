@@ -1,7 +1,7 @@
 .slider {
 	display: flex;
 	height: 70vh;
-	content-align: center;
+	align-items: center;
 	justify-content: center;
 	width: 70vw;
 	background-color: #393939;

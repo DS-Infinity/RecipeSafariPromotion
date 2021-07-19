@@ -1,5 +1,5 @@
 // Import
-import business_plan_list from "../public/buisness_plan";
+import business_plan_list from "../public/business_plan";
 import Image from "next/image";
 
 // Export About
@@ -54,7 +54,7 @@ export default function About() {
             width="300px"
             height="300px"
           />
-          <h3>Daksh Srivasta</h3>
+          <h3>Daksh</h3>
         </div>
       </div>
 
