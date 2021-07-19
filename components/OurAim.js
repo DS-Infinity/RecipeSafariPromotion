@@ -62,9 +62,8 @@ export default function OurAim() {
 					<div className="ouraim__text">
 						<h2>Our Aim</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-							culpa ducimus ipsa doloribus atque inventore deserunt ea assumenda
-							minima architecto.
+							To help people share recipes and find them with ease and try-out
+							different versions of your own recipes.
 						</p>
 					</div>
 				</div>
@@ -73,9 +72,8 @@ export default function OurAim() {
 					<div className="ouraim__text">
 						<h2>Our Vision</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-							culpa ducimus ipsa doloribus atque inventore deserunt ea assumenda
-							minima architecto.
+							To expand worldwide and restraunts and have the whole website
+							menu.
 						</p>
 					</div>
 				</div>
@@ -84,11 +82,32 @@ export default function OurAim() {
 					<div className="ouraim__text">
 						<h2>Our Purpose</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-							culpa ducimus ipsa doloribus atque inventore deserunt ea assumenda
-							minima architecto.
+							To help people try-out different dishes from different parts of
+							the world.
 						</p>
 					</div>
+				</div>
+			</div>
+			<div className="display">
+				<div className="ouraim__text">
+					<h2>Our Aim</h2>
+					<p>
+						To help people share recipes and find them with ease and try-out
+						different versions of your own recipes.
+					</p>
+				</div>
+				<div className="ouraim__text">
+					<h2>Our Vision</h2>
+					<p>
+						To expand worldwide and restraunts and have the whole website menu.
+					</p>
+				</div>
+				<div className="ouraim__text">
+					<h2>Our Purpose</h2>
+					<p>
+						To help people try-out different dishes from different parts of the
+						world.
+					</p>
 				</div>
 			</div>
 		</div>

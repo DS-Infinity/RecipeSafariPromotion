@@ -1,11 +1,12 @@
 .home {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 50px;
-  margin-bottom: 16vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+	margin-bottom: 16vh;
+	max-width: 100vw;
 }
 
 .home-image {
@@ -43,23 +44,28 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 80%;
-	margin-left: 50vw;
-	margin-right: 50vw;
-	margin-top: 10vh;
+	width: 84%;
+	/* margin-left: 50vw; */
+	height: 80vh;
+	/* margin-right: 50vw; */
+	margin-top: 40vh;
 }
 
 .feature-details {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 42%;
+	width: 32%;
 	text-align: end;
 }
 
-.feature-details:nth-child(2) {
+/* .feature-img {
+	height: 70vh;
+} */
+
+/* .feature-details:nth-child(2) {
 	text-align: start;
-}
+} */
 
 .feature-share {
 	display: flex;
@@ -73,4 +79,12 @@
 
 .feature-share p {
 	width: 48vw;
+}
+
+.feature-details h1 {
+	font-size: 48px;
+}
+
+.feature-details p {
+	font-size: 24px;
 }

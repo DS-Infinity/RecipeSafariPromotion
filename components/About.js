@@ -60,7 +60,7 @@ export default function About() {
 
       <div id="footer">
         <p>
-          Copyright © <span>Recipe Safari</span> | Made with{" "}
+          Copyright © <span>Recipe Safari</span> | Made with
           <span id="heart">❤</span> by <span>eSpice</span>
         </p>
       </div>

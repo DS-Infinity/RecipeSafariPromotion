@@ -70,6 +70,10 @@
 	width: calc(50% - 2rem);
 }
 
+.display {
+	display: none;
+}
+
 .ouraim__text > h2 {
 	margin: 0;
 }

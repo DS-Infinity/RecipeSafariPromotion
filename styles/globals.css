@@ -34,6 +34,7 @@ body {
   background-color: var(--tertiary);
   scroll-behavior: smooth;
   overflow-x: hidden;
+  width: 100vw !important;
 }
 
 /* Navbar */
