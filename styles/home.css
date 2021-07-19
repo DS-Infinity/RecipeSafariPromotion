@@ -1,77 +1,77 @@
 .home {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-  padding-top: 50px;
-  margin-bottom: 16vh;
+	padding-top: 50px;
+	margin-bottom: 16vh;
 }
 
 .home-image {
-  width: 100vw;
+	width: 100vw;
 }
 
 #splash-text {
-  padding: 50px 0;
+	padding: 50px 0;
 }
 
 #search-ui-img,
 #add-ui-img {
-  width: 80vw;
+	width: 80vw;
 }
 
 .title {
-  font-family: "Inter", sans-serif;
-  font-size: 72px;
-  color: var(--secondary);
-  margin: 0;
-  text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 34px;
+	color: var(--secondary);
+	margin: 0;
+	text-align: center;
 }
 
 .pacifico_title {
-  font-family: "Pacifico", sans-serif;
-  color: var(--primary);
+	font-family: "Pacifico", sans-serif;
+	color: var(--primary);
 }
 
 .description {
-  text-align: center;
-  width: 100%;
+	text-align: center;
+	width: 100%;
 }
 
 .feature-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  margin-left: 50vw;
-  margin-right: 50vw;
-  margin-top: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 50vw;
+	margin-right: 50vw;
+	margin-top: 10vh;
 }
 
 .feature-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 42%;
-  text-align: end;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 42%;
+	text-align: end;
 }
 
 .feature-details:nth-child(2) {
-  text-align: start;
+	text-align: start;
 }
 
 .feature-share {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
 
 .feature-share p {
-  width: 48vw;
+	width: 48vw;
 }
