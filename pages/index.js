@@ -13,7 +13,7 @@ export default function Home() {
 			<HomeSection />
 			<OurAim />
 			<h2 className="target-audience">Target Audience</h2>
-			<Slider />
+			<Slider className="slider-main" />
 			<About />
 		</div>
 	);
