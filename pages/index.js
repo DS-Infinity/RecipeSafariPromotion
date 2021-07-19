@@ -3,18 +3,18 @@ import Navbar from "../components/Navbar";
 import OurAim from "../components/OurAim";
 import About from "../components/About";
 import HomeSection from "../components/Home";
-import Slider from "../components/Slider";
+import Slider from "../components/slider";
 
 // Export Home
 export default function Home() {
-  return (
-    <div id="container">
-      <Navbar />
-      <HomeSection />
-      <OurAim />
-      <h2 className="target-audience">Target Audience</h2>
-      <Slider />
-      <About />
-    </div>
-  );
+	return (
+		<div id="container">
+			<Navbar />
+			<HomeSection />
+			<OurAim />
+			<h2 className="target-audience">Target Audience</h2>
+			<Slider />
+			<About />
+		</div>
+	);
 }
