@@ -4,6 +4,7 @@ One-stop application to find any recipe, with unlimited customizations.
 
 [Promotional Website](https://recipesafari.netlify.app)  
 [App UI Design (Figma)](https://www.figma.com/file/hx0EQeC9EO4UEkP3kWPck6/Recipe-Safari-UI-Design?node-id=639%3A50)
+[GitHub Repo](https://github.com/DS-Infinity/RecipeSafariPromotion)
 
 ---
 
