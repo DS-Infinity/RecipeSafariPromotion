@@ -21,8 +21,6 @@
   flex-direction: column;
   text-align: center;
   width: 100vw;
-  position: absolute;
-  top: 40vh;
   color: white;
 }
 
@@ -136,4 +134,7 @@
 }
 .light-mode #img-2 {
   content: url("https://media.discordapp.net/attachments/854564575826673685/866943460128325632/unknown.png?width=419&height=605");
+}
+.new img {
+  object-fit: contain;
 }
