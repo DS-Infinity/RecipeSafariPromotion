@@ -6,7 +6,7 @@ export default function HomeSection() {
   return (
     <div>
       <Navbar />
-      <div className="home">
+      <div className="home" id="home">
         <img className="home-image" src="/splash.png" alt="hello"></img>
         <div id="splash-text">
           <h1 className="title">
