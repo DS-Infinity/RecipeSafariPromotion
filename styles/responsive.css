@@ -194,13 +194,18 @@
 
   .home img {
     width: 300px !important;
-    height: 200px !important;
+    height: 300px !important;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .feature-img {
+  .feature-img img{
     width: 100%;
+    height: 60vh;
+  }
+
+  .home{
+    margin-bottom: -4px;
   }
 
   #footer {
@@ -222,6 +227,15 @@
 
   .feature-share h1 {
     font-size: 20px;
+    text-align: center;
+  }
+
+  .feature-box img{
+    margin-top: 30px;
+  }
+
+  .feature-share{
+    margin-top: 140px;
   }
 
   .feature-share p {
@@ -246,9 +260,13 @@
     width: 100%;
   }
 
-  /* .feature-box {
-	  margin: 0;
-  } */
+  .feature-box {
+	  margin-top: 50px;
+  }
+
+  .feature-box.new{
+    margin-top: 110px;
+  }
 
   .line:before,
   .line:after {

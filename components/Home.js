@@ -32,7 +32,7 @@ export default function HomeSection() {
           </div>
           <img
             className="feature-img"
-            src="https://media.discordapp.net/attachments/854564575826673685/866921481454747648/unknown.png"
+            src="https://media.discordapp.net/attachments/854564575826673685/866945447091503104/unknown.png"
           ></img>
         </div>
         {/* isko css file mein hi daaldo lmao*/}
@@ -41,7 +41,7 @@ export default function HomeSection() {
         <div className="feature-box new">
           <img
             className="feature-img"
-            src="https://media.discordapp.net/attachments/854564575826673685/866914476161761310/unknown.png?width=382&height=554"
+            src="https://media.discordapp.net/attachments/854564575826673685/866943722847862804/unknown.png?width=361&height=554"
           ></img>
           <div className="feature-details">
             <h1>Discover new recipes everyday.</h1>
@@ -55,7 +55,7 @@ export default function HomeSection() {
         <div className="feature-share">
           <h1>Share your recipes and get feedback.</h1>
           <p>
-            Add new recipes and get suggestions and reviews on that half-burned
+            Add new recipes and get suggestions and reviews on that half-burnt
             potato.
           </p>
         </div>

@@ -67,9 +67,10 @@
   text-align: center;
 }
 
-/* .feature-img {
+.feature-img {
 	height: 70vh;
-} */
+  width: 70vh;
+}
 
 .feature-share {
   display: flex;
