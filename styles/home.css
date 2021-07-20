@@ -20,16 +20,16 @@
   align-content: center;
   flex-direction: column;
   text-align: center;
-   width: 100vw;
+  width: 100vw;
 }
 
 #search-ui-img,
 #add-ui-img {
-  width: 80vw;
+  width: 50vw;
 }
 
 .title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 64px;
   color: var(--secondary);
   margin: 0;
@@ -37,7 +37,7 @@
 }
 
 .pacifico_title {
-  font-family: 'Pacifico', sans-serif;
+  font-family: "Pacifico", sans-serif;
   color: var(--primary);
 }
 
@@ -56,6 +56,7 @@
   height: 80vh;
   /* margin-right: 50vw; */
   margin-top: 40vh;
+  gap: 30px;
 }
 
 .feature-details {
