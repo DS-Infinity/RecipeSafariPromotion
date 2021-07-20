@@ -26,7 +26,7 @@ export default function HomeSection() {
               Bookmark the recipes you like with the magic of a single click.
             </p>
           </div>
-          <img className="feature-img" id="img-1"></img>
+          <img className="feature-img" id="img-1" alt="hello"></img>
         </div>
 
         <div className="feature-box new">
