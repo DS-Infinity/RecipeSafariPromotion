@@ -1,6 +1,5 @@
 // Import
 import Navbar from "./Navbar";
-// import styles from "../styles/Home.css"
 
 // Export Home
 export default function HomeSection() {
@@ -8,7 +7,7 @@ export default function HomeSection() {
     <div>
       <Navbar />
       <div className="home">
-        <img className="home-image" src="/splash.png"></img>
+        <img className="home-image" src="/splash.png" alt="hello"></img>
         <div id="splash-text">
           <h1 className="title">
             Presenting <span className="pacifico_title">Recipe Safari</span>
@@ -18,7 +17,7 @@ export default function HomeSection() {
           </p>
         </div>
 
-        <img id="search-ui-img"></img>
+        <img id="search-ui-img" alt="hello"></img>
 
         <div className="feature-box">
           <div className="feature-details">
@@ -31,7 +30,7 @@ export default function HomeSection() {
         </div>
 
         <div className="feature-box new">
-          <img className="feature-img" id="img-2"></img>
+          <img className="feature-img" id="img-2" alt="hello"></img>
           <div className="feature-details">
             <h1>Discover new recipes everyday.</h1>
             <p>
@@ -49,7 +48,7 @@ export default function HomeSection() {
           </p>
         </div>
 
-        <img id="add-ui-img" />
+        <img id="add-ui-img" alt="hello" />
       </div>
     </div>
   );
