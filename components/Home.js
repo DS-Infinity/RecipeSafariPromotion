@@ -1,5 +1,5 @@
 // Import
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
 // import styles from "../styles/Home.css"
 
 // Export Home
@@ -18,10 +18,7 @@ export default function HomeSection() {
           </p>
         </div>
 
-        <img
-          id="search-ui-img"
-          src="https://media.discordapp.net/attachments/854564575826673685/866925017429180426/unknown.png?width=427&height=553"
-        ></img>
+        <img id="search-ui-img"></img>
 
         <div className="feature-box">
           <div className="feature-details">
@@ -30,19 +27,11 @@ export default function HomeSection() {
               Bookmark the recipes you like with the magic of a single click.
             </p>
           </div>
-          <img
-            className="feature-img"
-            src="https://media.discordapp.net/attachments/854564575826673685/866945447091503104/unknown.png"
-          ></img>
+          <img className="feature-img" id="img-1"></img>
         </div>
-        {/* isko css file mein hi daaldo lmao*/}
-        {/* <hr className="hr" /> */}
 
         <div className="feature-box new">
-          <img
-            className="feature-img"
-            src="https://media.discordapp.net/attachments/854564575826673685/866943722847862804/unknown.png?width=361&height=554"
-          ></img>
+          <img className="feature-img" id="img-2"></img>
           <div className="feature-details">
             <h1>Discover new recipes everyday.</h1>
             <p>
@@ -60,7 +49,7 @@ export default function HomeSection() {
           </p>
         </div>
 
-        <img id="add-ui-img" src="https://media.discordapp.net/attachments/854564575826673685/866917304355913748/unknown.png" />
+        <img id="add-ui-img" />
       </div>
     </div>
   );

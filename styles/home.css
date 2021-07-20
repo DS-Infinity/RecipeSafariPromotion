@@ -21,6 +21,9 @@
   flex-direction: column;
   text-align: center;
   width: 100vw;
+  position: absolute;
+  top: 40vh;
+  color: white;
 }
 
 #search-ui-img,
@@ -31,14 +34,14 @@
 .title {
   font-family: "Inter", sans-serif;
   font-size: 64px;
-  color: var(--secondary);
   margin: 0;
   text-align: center;
+  font-weight: 300;
 }
 
 .pacifico_title {
+  font-weight: 900;
   font-family: "Pacifico", sans-serif;
-  color: var(--primary);
 }
 
 .description {
@@ -52,10 +55,8 @@
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
-  /* margin-left: 50vw; */
-  height: 80vh;
-  /* margin-right: 50vw; */
-  margin-top: 40vh;
+  height: 60vh;
+  margin-top: 10vh;
   gap: 30px;
 }
 
@@ -68,8 +69,9 @@
 }
 
 .feature-img {
-	height: 70vh;
+  height: 70vh;
   width: 70vh;
+  object-fit: contain;
 }
 
 .feature-share {
@@ -105,4 +107,33 @@
 .feature-share p {
   width: 48vw;
   font-size: 24px;
+}
+
+/* Light Mode */
+#add-ui-img {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866917304355913748/unknown.png");
+}
+.light-mode #add-ui-img {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866941808323330088/unknown.png");
+}
+
+#search-ui-img {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866925017429180426/unknown.png?width=427&height=553");
+}
+.light-mode #search-ui-img {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866942128156442624/unknown.png?width=464&height=604");
+}
+
+#img-1 {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866945447091503104/unknown.png");
+}
+.light-mode #img-1 {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866942304140263454/unknown.png");
+}
+
+#img-2 {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866943722847862804/unknown.png?width=361&height=554");
+}
+.light-mode #img-2 {
+  content: url("https://media.discordapp.net/attachments/854564575826673685/866943460128325632/unknown.png?width=419&height=605");
 }

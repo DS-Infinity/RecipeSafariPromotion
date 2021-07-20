@@ -19,10 +19,10 @@ export default function Navbar() {
         </a>
       </div>
 
-      <label class="label">
-        <div class="toggle">
+      <label className="label">
+        <div className="toggle">
           <input
-            class="toggle-state"
+            className="toggle-state"
             type="checkbox"
             onClick={() => {
               document.body.classList.toggle("light-mode");
